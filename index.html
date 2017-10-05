@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Landing</title>
+  <style>
+    /*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*!
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=ee1f3f3ec3b71efa8a6397d4122cee30)
+ * Config saved to config.json and https://gist.github.com/ee1f3f3ec3b71efa8a6397d4122cee30
+ *//*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */hr,img,legend{border:0}legend,td,th{padding:0}body,figure{margin:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent;color:#337ab7;text-decoration:none}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,optgroup,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}.img-thumbnail,body{background-color:#fff}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{vertical-align:middle}svg:not(:root){overflow:hidden}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}table{border-collapse:collapse;border-spacing:0}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}body{line-height:1.42857143}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a:focus,a:hover{color:#23527c;text-decoration:underline}a:focus{outline-offset:-2px}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;border:1px solid #ddd;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}.container,.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}[role=button]{cursor:pointer}@media (min-width:480px){.container{width:470px}}@media (min-width:768px){.container{width:750px}}@media (min-width:930px){.container{width:930px}}.row{margin-left:-15px;margin-right:-15px}.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:480px){.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:768px){.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:930px){.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.center-block,.header-wrap{margin-left:auto;margin-right:auto}.clearfix:after,.clearfix:before,.container-fluid:after,.container-fluid:before,.container:after,.container:before,.row:after,.row:before{content:" ";display:table}.clearfix:after,.container-fluid:after,.container:after,.row:after{clear:both}.center-block{display:block}.pull-right{float:right!important}.pull-left{float:left!important}.descr,.descr-map,.descr-map div,.descr-map i,.descr-time,.descr-time div,.descr-time i,.logo,.phone-block{float:left}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}body,html{font-size:13px}.hidden{display:none!important}.affix{position:fixed}html{-webkit-tap-highlight-color:transparent}body{font-family:LatoRegular,sans-serif;font-weight:400;color:#242424}.form-block__heading,.osago-block__heading,.phone-number{font-family:LatoBold,sans-serif}i[class^=icon]{display:inline-block;vertical-align:top;float:left}a:focus,button:focus,input:focus{outline:0}a:active{text-decoration:none;color:#222}@font-face{font-family:RobotoCondensedRegular;src:url(fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot);src:url(fonts/RobotoCondensedRegular/RobotoCondensedRegular.eot?#iefix) format("embedded-opentype"),url(fonts/RobotoCondensedRegular/RobotoCondensedRegular.woff) format("woff"),url(fonts/RobotoCondensedRegular/RobotoCondensedRegular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoCondensedLight;src:url(fonts/RobotoCondensedLight/RobotoCondensedLight.eot);src:url(fonts/RobotoCondensedLight/RobotoCondensedLight.eot?#iefix) format("embedded-opentype"),url(fonts/RobotoCondensedLight/RobotoCondensedLight.woff) format("woff"),url(fonts/RobotoCondensedLight/RobotoCondensedLight.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:RobotoCondensedBold;src:url(fonts/RobotoCondensedBold/RobotoCondensedBold.eot);src:url(fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix) format("embedded-opentype"),url(fonts/RobotoCondensedBold/RobotoCondensedBold.woff) format("woff"),url(fonts/RobotoCondensedBold/RobotoCondensedBold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoRegular;src:url(fonts/LatoRegular/LatoRegular.eot);src:url(fonts/LatoRegular/LatoRegular.eot?#iefix) format("embedded-opentype"),url(fonts/LatoRegular/LatoRegular.woff) format("woff"),url(fonts/LatoRegular/LatoRegular.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoBold;src:url(fonts/LatoBold/LatoBold.eot);src:url(fonts/LatoBold/LatoBold.eot?#iefix) format("embedded-opentype"),url(fonts/LatoBold/LatoBold.woff) format("woff"),url(fonts/LatoBold/LatoBold.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoLight;src:url(fonts/LatoLight/LatoLight.eot);src:url(fonts/LatoLight/LatoLight.eot?#iefix) format("embedded-opentype"),url(fonts/LatoLight/LatoLight.woff) format("woff"),url(fonts/LatoLight/LatoLight.ttf) format("truetype");font-style:normal;font-weight:400}@font-face{font-family:LatoItalic;src:url(fonts/LatoItalic/LatoItalic.eot);src:url(fonts/LatoItalic/LatoItalic.eot?#iefix) format("embedded-opentype"),url(fonts/LatoItalic/LatoItalic.woff) format("woff"),url(fonts/LatoItalic/LatoItalic.ttf) format("truetype");font-style:normal;font-weight:400}.icon-calculator{background-image:url(images/sprite.png);background-position:-410px -171px;width:67px;height:88px}.icon-car,.icon-first,.icon-hand,.icon-iphone{background-image:url(images/sprite.png);background-position:-472px -318px;width:23px;height:8px}.icon-first,.icon-hand,.icon-iphone{background-position:-127px -181px;width:127px;height:120px}.icon-hand,.icon-iphone{background-position:-181px -120px;width:64px;height:58px}.icon-iphone{background-position:-410px -86px;width:85px;height:85px}.icon-lory,.icon-mail,.icon-man,.icon-man-with-doc{background-image:url(images/sprite.png);background-position:-308px 0;width:102px;height:83px}.icon-mail,.icon-man,.icon-man-with-doc{background-position:0 -301px;width:85px;height:86px}.icon-man,.icon-man-with-doc{background-position:0 0;width:181px;height:181px}.icon-man{background-position:-477px -230px;width:13px;height:16px}.icon-map,.icon-people,.icon-percent,.icon-phone,.icon-second{background-image:url(images/sprite.png);background-position:-477px -171px;width:18px;height:28px}.icon-people,.icon-percent,.icon-phone,.icon-second{background-position:-477px -199px;height:15px}.icon-percent,.icon-phone,.icon-second{background-position:-410px -318px;width:62px;height:62px}.icon-phone,.icon-second{background-position:-477px -214px;width:16px;height:16px}.icon-second{background-position:-181px 0;width:127px;height:120px}.icon-tel,.icon-telegram,.icon-third,.icon-time{background-image:url(images/sprite.png);background-position:-410px 0;width:85px;height:86px}.icon-telegram,.icon-third,.icon-time{background-position:-85px -301px;width:86px;height:85px}.icon-third,.icon-time{background-position:0 -181px;width:127px;height:120px}.icon-time{background-position:-308px -257px;width:29px;height:29px}.icon-truck,.icon-viber,.icon-vk,.icon-whatsapp{background-image:url(images/sprite.png);background-position:-410px -259px;width:75px;height:59px}.icon-viber,.icon-vk,.icon-whatsapp{background-position:-308px -83px;width:87px;height:87px}.icon-vk,.icon-whatsapp{background-position:-308px -170px}.icon-whatsapp{background-position:-171px -301px;width:86px;height:85px}.header{padding:23px 0 16px}.header-wrap{max-width:1230px;padding-left:15px;padding-right:15px}.logo{display:block;padding-left:8.5%;padding-top:4px}.logo .logo__img{width:100%;max-width:315px}.descr{padding-left:7%;font-size:1rem}.phone-block{padding-left:8%}.descr__heading{clear:both;font-size:1.38462rem}.descr-map,.descr-time{padding-top:5px}.descr-map i,.descr-time i{margin-top:3px}.descr-time .descr__text{margin-left:12px}.descr-map{padding-left:19px}.descr-map .descr__text{padding-left:5px}.phone-number{display:block;padding-top:3px;color:#373737;font-size:1.38462rem}.phone-number:hover{color:#373737;text-decoration:none}.phone-number i{margin-right:7px;margin-top:5px}.ask-button{border:0;width:170px;height:40px;background:#fb9722;color:#fff;font-size:1.07692rem;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;-webkit-transition:.4s;-o-transition:.4s;-moz-transition:.4s;transition:.4s}.ask-button.ask-button_yellow,.ask-button:hover{-webkit-transition:.4s;-o-transition:.4s;-moz-transition:.4s}.ask-button:hover{background:#fcaf54;transition:.4s}.osago-block{position:relative;width:100%;height:639px;background:url(images/car-bg.png) left top no-repeat #897998;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center}.osago-block__heading{font-size:3.69231rem;color:#fff;letter-spacing:0;margin:120px -15px 63px}.form-block__descr,.icon-block i{margin-left:auto;margin-right:auto}.icon-block{display:inline-block;vertical-align:top;color:#fff;text-transform:uppercase;font-size:1.23077rem;width:150px}.icon-block i{display:block;float:none}.icon-block:nth-child(3){-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;padding-left:17%;padding-right:17%}.icon-block__text{margin-top:13px}.form-block{width:100%;height:180px;background:#fff;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;padding-left:1%;padding-right:1%}.form-block_absolute{position:absolute;width:90%;max-width:845px;left:50%;bottom:-56px;-webkit-transform:translate(-50%,0);-moz-transform:translate(-50%,0);-ms-transform:translate(-50%,0);-o-transform:translate(-50%,0);transform:translate(-50%,0)}.form-block__heading{text-align:center;font-size:1.30769rem;color:#3b3b3b;font-weight:400;margin-top:18px;margin-bottom:24px}.form-input{width:100%;border:1px solid #e58d26;text-align:center;height:50px;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;font-family:LatoLight,sans-serif;font-size:1.07692rem}.ask-button.ask-button_yellow{background:#ffd200;transition:.4s;color:#373737;font-family:LatoBold,sans-serif;width:100%;height:50px;text-transform:uppercase;font-size:1.23077rem}.ask-button.ask-button_yellow:hover{background:#ffdb33;-webkit-transition:.4s;-o-transition:.4s;-moz-transition:.4s;transition:.4s}.form-block__descr{width:70%;padding-top:13px;clear:both;font-family:LatoLight,sans-serif;font-size:1.07692rem;color:#4d4d4d}@media (max-width:1200px){.logo{padding-left:3%}.logo .logo__img{max-width:220px}.descr{position:absolute;left:50%;-webkit-transform:translate(-53%,0);-moz-transform:translate(-53%,0);-ms-transform:translate(-53%,0);-o-transform:translate(-53%,0);transform:translate(-53%,0)}.phone-block{float:right;padding-right:3%}.osago-block{background-position:25% 0}.osago-block__heading{font-size:2.76923rem}}@media (max-width:899px){.logo{float:none;margin-left:auto;margin-right:auto;width:315px}.logo .logo__img{max-width:315px}.descr{position:static;margin-top:30px;margin-left:4%;-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0)}.phone-block{margin-top:40px;margin-right:4%}}@media (max-width:767px){.descr,.form-block__heading,.phone-block,.phone-number{margin-left:auto;margin-right:auto}.descr,.phone-block{float:none;clear:both;margin-top:30px;text-align:center}.phone-number{padding-top:10px}.descr-map,.descr-time,.phone-number i{display:inline-block;vertical-align:top;float:none}.osago-block__heading{margin-top:20px;margin-bottom:0;font-size:2.15385rem}.icon-block{margin-top:15px}.form-block{height:auto;max-width:550px}.ask-button.ask-button_yellow,.form-input{max-width:400px}.form-block__heading{max-width:400px;display:block}.form-block_absolute{bottom:auto;top:515px}.form-input{margin-bottom:15px}.form-block__descr{margin-bottom:10px}}@media (max-width:480px){.logo{width:280px}.logo .logo__img{max-width:280px}.form-block{top:530px}.osago-block__heading{font-size:1.69231rem}.form-block__heading{font-size:1.07692rem}}
+  </style>
+</head>
+<body>
+
+  <!--Header-->
+  <header class="header clearfix">
+    <div class="header-wrap">
+      <a href="" class="logo"><img src="images/logo.png" alt="" class="logo__img"></a>
+      <div class="descr">
+        <div class="descr__heading">Страхование ОСАГО и КАСКО в Мурманске</div>
+        <div class="descr-time">
+          <i class="icon-time"></i>
+          <div class="descr__text">ПН-ПТ 10:00-19:00 <br>СБ-ВС 12:00-18:00</div>
+        </div>
+        <div class="descr-map">
+          <i class="icon-map"></i>
+          <div class="descr__text">Володарского 2В <br>(ТЦ ЕВросос)</div>
+        </div>
+      </div>
+      <div class="phone-block">
+        <button class="ask-button">Запросить расчет</button>
+        <a href="tel:88152260777" class="phone-number">
+          <i class="icon-phone"></i>
+          8 (8152) 260-777
+        </a>
+      </div>
+    </div>
+  </header>
+  <!--End of Header-->
+
+  <!--1-st Screen-->
+  <section class="osago-block">
+    <div class="container">
+      <h1 class="osago-block__heading">ОСАГО В МУРМАНСКЕ ДЕШЕВЛЕ ДО 50% БЕЗ ДОПОВ</h1>
+      <div class="icon-block">
+        <i class="icon-truck"></i>
+        <div class="icon-block__text">Доставка на дом</div>
+      </div>
+      <div class="icon-block">
+        <i class="icon-percent"></i>
+        <div class="icon-block__text">Экономия до 50% от цены</div>
+      </div>
+      <div class="icon-block">
+       <i class="icon-hand"></i>
+       <div class="icon-block__text">Надежные страховые</div>
+      </div>
+      <div class="form-block form-block_absolute clearfix">
+      <form action="/">
+        <h2 class="form-block__heading">УЗНАЙ, НАСКОЛЬКО ДЕШЕВЛЕ БУДЕТ ТВОЯ НОВАЯ СТРАХОВКА ОСАГО</h2>
+        <div class="col-md-4">
+          <input type="text" class="form-input" placeholder="Ваше имя:">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-input" id="your-phone" placeholder="Ваш телефон:">
+        </div>
+        <div class="col-md-4">
+          <button class="ask-button ask-button_yellow">Запросить расчет</button>
+        </div>
+        <div class="form-block__descr">Мы свяжемся с вами в течении 5 минут и поможем вернуть скидку до 50% по ОСАГО за безаварийную езду!</div>
+      </form>
+    </div>
+    </div>
+  </section>
+  <!--End of 1-st Screen-->
+
+  <!--2-nd Screen-->
+  <section class="numbers-block">
+    <div class="icon-block icon-block_numbers">
+      <i class="icon-first"></i>
+      100% ГАРАНТИЯ <br>
+      НАДЕЖНЫЕ СТРАХОВЫЕ 
+      (рейтинг А++)
+    </div>
+    <div class="icon-block icon-block_numbers">
+      <i class="icon-second"></i>
+      БЕЗ СТРАХОВАНИЯ ЖИЗНИ <br> 
+      И ДОПОЛНИТЕЛЬНЫХ 
+      СБОРОВ
+    </div>
+    <div class="icon-block icon-block_numbers">
+      <i class="icon-third"></i>
+      БЕЗ НЕРВОВ, ОЖИДАНИЯ, <br>
+      ДЛИННЫХ ОЧЕРЕДЕЙ
+    </div>
+  </section>
+  <!--End of 2-nd Screen-->
+
+  <!--3-d Screen-->
+  <section class="delivery-block">
+    <h2 class="delivery-block__heading">Доставка полиса на дом / офис</h2>
+    <div class="container">
+      <div class="col-lg-offset-1 col-lg-3 col-md-4">
+        <div class="delivery-block__img"><i class="icon-man-with-doc"></i></div>
+      </div>
+      <div class="col-lg-8 col-md-8">
+        <div class="row">
+          <p>Вам не нужно ехать к нам в офис - вышлите документы 
+  по электронной почте или через skype, viber, watsapp, telegram. 
+  Мы оформим полис за 2 часа и доставим вам курьером.</p>
+          <button class="ask-button ask-button_yellow-polys">Заказать полис с доставкой</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End of 3-d Screen-->
+
+  <!--4-th Screen-->
+    <section class="calculator">
+      <h2 class="calculator__heading">КАЛЬКУЛЯТОР ОСАГО</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="row">
+            <div class="calc-wrap">
+              <h3 class="calc-wrap__heading">Калькулятор ОСАГО в городе Мурманск</h3>
+              <div class="border-bottom"></div>
+              <i class="icon-car"></i>
+              <div class="border-bottom"></div>
+              <span class="calc-heading">Изменить тип ТС</span>
+              <select name="type-ts" id="type-ts">
+                <OPTION value="1" selected>Легковые автомобили
+                <OPTION value="2">Легковые автомобили, используемые в такси
+                <OPTION value="3">Автобусы, используемые на регулярных перевозках
+                <OPTION value="4">Автобусы с числом пассажирских мест более 16
+                <OPTION value="5">Автобусы с числом пассажирских мест до 16 включ.
+                <OPTION value="6">Грузовые машины с разреш. макc. массой &lt; 16 тонн
+                <OPTION value="7">Грузовые машины с разреш. макс. массой > 16 тонн
+                <OPTION value="8">Мотоциклы, мопеды и легкие квадроциклы
+                <OPTION value="9">Тракторы, самоходные дорожно-строит. машины
+                <OPTION value="10">Трамваи
+                <OPTION value="11">Троллейбусы
+              </select>
+              <div class="power-wrap">
+                <span>Мощность (л. с.)</span>
+                  <div class="power-label-wrap">
+                  <input value="1" name="power" type="radio" id="first-inp">
+                  <label for="first-inp">&lt; 50</label>
+                  <input value="2" name="power" type="radio" id="second-inp">
+                  <label for="second-inp">51-70</label>
+                  <input value="3" checked name="power" type="radio" id="third-inp">
+                  <label for="third-inp">71-100</label>
+                  <input value="4" name="power" type="radio" id="fourth-inp">
+                  <label for="fourth-inp">101-120</label>
+                  <input value="5" name="power" type="radio" id="fifth-inp">
+                  <label for="fifth-inp">121-150</label>
+                  <input value="6" name="power" type="radio" id="sixth-inp">
+                  <label for="sixth-inp">> 150</label>
+                </div>
+              </div>
+              <div class="city-wrap">
+                <span>Город прописки собственника</span>
+                <select id="city">
+                  <option value="2.1" selected>Мурманск</option>
+                  <option value="1.3">Апатиты</option>
+                  <option value="1.3">Гаджиево</option>
+                  <option value="1.3">Заозерск</option>
+                  <option value="1.3">Кировск</option>
+                  <option value="1.3">Мончегорск</option>
+                  <option value="1.3">Оленегорск</option>
+                  <option value="1.3">Оленегорск-1</option>
+                  <option value="1.3">Оленегорск-2</option>
+                  <option value="1.3">Островной</option>
+                  <option value="1.3">Полярные Зори</option>
+                  <option value="1.3">Полярный</option>
+                  <option value="1.3">Североморск</option>
+                  <option value="1.3">Снежногорск</option>
+                </select>
+              </div>
+              <div class="class-wrap">
+                <span>Класс</span>
+                <select id="class">
+                  <option value="999">Не знаю</option>
+                  <option value="1">Не страховался ранее</option>
+                  <option value="2.45">M</option>
+                  <option value="2.3">0</option>
+                  <option value="1.55">1</option>
+                  <option value="1.4">2</option>
+                  <option selected value="1">3</option>
+                  <option value="0.95">4</option>
+                  <option value="0.9">5</option>
+                  <option value="0.85">6</option>
+                  <option value="0.8">7</option>
+                  <option value="0.75">8</option>
+                  <option value="0.7">9</option>
+                  <option value="0.65">10</option>
+                  <option value="0.6">11</option>
+                  <option value="0.55">12</option>
+                  <option value="0.5">13</option>
+                </select>
+              </div>
+              <i class="icon-people"></i>
+              <div class="border-bottom"></div>
+              <div class="drivers-wrap">
+                <span>Количество водителей</span>
+                <div class="drivers-label-wrap"> 
+                  <input name="driver" value="1" type="radio" checked id="first-driver">
+                  <label for="first-driver">По списку</label>
+                  <input name="driver" value="2" type="radio" id="second-driver">
+                  <label for="second-driver">Не ограничено</label>
+                </div>
+              </div>
+              <div id="driver-wrapper">
+              <div class="driver">
+                <i class="icon-man"></i>
+                <span class="calc-heading">Водитель <span id="number-driver">1</span></span>
+                <div class="driver-wrap">
+                  <span>Стаж вождения и возраст</span>
+                  <div class="label-wrap">
+                    <div class="single-wrap">
+                      <input name="old" value="1.8" type="radio" id="first-old">
+                      <label for="buckshtabu">Менее 3-х лет и моложе 22-х лет</label>
+                    </div>
+                    <div class="single-wrap">
+                      <input name="old" value="1.7" type="radio" id="second-old">
+                      <label for="buckshtabu">Менее 3-х лет и старше 22-х лет</label>
+                    </div>
+                    <div class="single-wrap">
+                      <input name="old" value="1.6" type="radio" id="third-old">
+                      <label for="buckshtabu">Более 3-х лет и моложе 22-х лет</label>
+                    </div>
+                    <div class="single-wrap">
+                      <input name="old" checked value="1" type="radio" id="fourth-old">
+                      <label for="buckshtabu">Более 3-х лет и старше 22-х лет</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>       
+              <div id="new-drivers"></div>
+              <button type="button" id="add-driver">+ Добавить водителя</button>
+              <div id="remove-driver" class="remove-driver"></div>
+              <div class="price">Ваш полис будет стоить <span id="price"></span> руб.</div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="row">
+            <form action="/">
+            <div class="calc-wrap calc-wrap_ask">
+              <span class="price-text">Стоимость полиса</span>
+              <span class="price-digit"><span id="price-digit"></span> руб.</span>
+                <input id="ask-phone" type="text" class="calc-wrap__input" placeholder="+7(___) ___-____">
+                <button type="button" class="ask-button ask-button_calc">Заказать полис</button>
+            </div>
+            <div class="calc-wrap calc-wrap_ask">
+              <input type="checkbox" id="driving" value="4500-9000">
+              <label for="driving">Посчитать с учетом скидок за аккуратную езду</label>
+              <div class="clearfix"></div>
+              <div class="action-text">Действующая скидка выдается страховщиком по персональным данным каждого водителя</div> 
+            </div>
+            </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!--End of 4-th Screen-->
+    
+  <!--5-th Screen-->
+    <section class="yur-block">
+      <div class="col-md-offset-6 col-md-6 yur-text">
+        <h2 class="yur-block__heading">Юридическое сопровождение</h2>
+        <p class="yur-block__text">Мы поможем вам решить все проблемы, связанные со страхованием по ОСАГО. Выплаты по страховому случаю, представление ваших интересов в инстанциях. Помощь на дороге!</p>  
+      </div>
+    </section>
+  <!--End of 5-th Screen-->
+
+  <!--6-th Screen-->
+  <section class="steps-block">
+    <h2 class="steps-block__heading">КАК ПОЛУЧИТЬ СТРАХОВКУ?</h2>
+    <div class="icon-block icon-block_steps">
+      <i class="icon-iphone">
+        <span class="number-step">1</span>
+      </i>
+      ЗАЯВКА
+    </div>
+    <div class="icon-block icon-block_steps">
+      <i class="icon-calculator">
+        <span class="number-step">2</span>
+      </i>
+      РАСЧЕТ
+    </div>
+    <div class="icon-block icon-block_steps">
+      <i class="icon-lory">
+        <span class="number-step">3</span>
+      </i>
+      ДОСТАВКА
+    </div>
+  </section>
+  <!--End of 6-th Screen-->
+
+  <!--7-th Screen-->
+  <section class="doc-block">
+    <h2 class="doc-block__heading">4 ДОКУМЕНТА ДЛЯ ОФОРМЛЕНИЯ ПОЛИСА</h2>
+    <div class="doc-wrap">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row">
+        <div class="col-md-6">
+          <img src="images/doc-1.png" alt="">
+          <span class="doc-block__text">Паспорта страхователя <br> и владельца автомобиля</span>
+        </div>
+        <div class="col-md-6">
+          <img src="images/doc-2.png" alt="">
+          <span class="doc-block__text">Свидетельство <br> о регистрации ТС</span>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="row">
+        <div class="col-md-6">
+          <img src="images/doc-3.png" alt="">
+          <span class="doc-block__text">Паспорта <br> транспортного средства</span>
+        </div>
+        <div class="col-md-6">
+          <img src="images/doc-4.png" alt="">
+          <span class="doc-block__text">Водительское удостоверение <br> всех допущеных водителей</span>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!--End of 7-th Screen-->
+  
+  <!--Reviews-->
+    <section class="reviews-block">
+      <div class="container" id="slider">
+      <div class="item">
+        <div class="container">
+          <h2 class="item__heading">Отзывы клиентов</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="img-wrap img-wrap_border">
+                <img src="images/boy.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+              <h3 class="review-heading">Александр Волков</h3>
+              <p>Ездил в тур <span class="text text_underline">Корсунь -Шевченківський - Канів.</span> Очень все понравилось, море позитивных
+эмоций от поездки, с удовольствие поеду еще, все было на высшем уровне комфортные
+и удобные автобусы, приятные экскурсоводы. Побывал в таких интересных местах, 
+о которых даже и не слышал. Вообщем все супер, всем рекомендую.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <h2 class="item__heading">Отзывы клиентов</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="img-wrap img-wrap_border">
+                <img src="images/boy.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+              <h3 class="review-heading">Александр Волков</h3>
+              <p>Ездил в тур <span class="text text_underline">Корсунь -Шевченківський - Канів.</span> Очень все понравилось, море позитивных
+эмоций от поездки, с удовольствие поеду еще, все было на высшем уровне комфортные
+и удобные автобусы, приятные экскурсоводы. Побывал в таких интересных местах, 
+о которых даже и не слышал. Вообщем все супер, всем рекомендую.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <h2 class="item__heading">Отзывы клиентов</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="img-wrap img-wrap_border">
+                <img src="images/boy.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+              <h3 class="review-heading">Александр Волков</h3>
+              <p>Ездил в тур <span class="text text_underline">Корсунь -Шевченківський - Канів.</span> Очень все понравилось, море позитивных
+эмоций от поездки, с удовольствие поеду еще, все было на высшем уровне комфортные
+и удобные автобусы, приятные экскурсоводы. Побывал в таких интересных местах, 
+о которых даже и не слышал. Вообщем все супер, всем рекомендую.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <h2 class="item__heading">Отзывы клиентов</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="img-wrap img-wrap_border">
+                <img src="images/boy.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+              <h3 class="review-heading">Александр Волков</h3>
+              <p>Ездил в тур <span class="text text_underline">Корсунь -Шевченківський - Канів.</span> Очень все понравилось, море позитивных
+эмоций от поездки, с удовольствие поеду еще, все было на высшем уровне комфортные
+и удобные автобусы, приятные экскурсоводы. Побывал в таких интересных местах, 
+о которых даже и не слышал. Вообщем все супер, всем рекомендую.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <h2 class="item__heading">Отзывы клиентов</h2>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="img-wrap img-wrap_border">
+                <img src="images/boy.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+              <h3 class="review-heading">Александр Волков</h3>
+              <p>Ездил в тур <span class="text text_underline">Корсунь -Шевченківський - Канів.</span> Очень все понравилось, море позитивных
+эмоций от поездки, с удовольствие поеду еще, все было на высшем уровне комфортные
+и удобные автобусы, приятные экскурсоводы. Побывал в таких интересных местах, 
+о которых даже и не слышал. Вообщем все супер, всем рекомендую.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  <!--End of Reviews-->
+
+  <!--Companies-->
+  <section class="companies">
+    <h2 class="companies__heading">СТРАХОВЫЕ КОМПАНИИ</h2>
+    <img src="images/companies.png" alt="">
+    <div class="mobile-img">
+      <img src="images/companies-first.png" alt="">
+    </div>
+    <div class="mobile-img">
+      <img src="images/companies-second.png" alt="">
+    </div>
+  </section>
+  <!-- End of companies-->
+
+  <!--Form-->
+  <section class="form-section">
+    <div class="container">
+      <div class="form-block clearfix">
+      <form action="/">
+        <h2 class="form-block__heading">УЗНАЙ, НАСКОЛЬКО ДЕШЕВЛЕ БУДЕТ ТВОЯ НОВАЯ СТРАХОВКА ОСАГО</h2>
+        <div class="col-md-4">
+          <input type="text" class="form-input" placeholder="Ваше имя:">
+        </div>
+        <div class="col-md-4">
+          <input type="text" class="form-input" id="your-phone-second" placeholder="Ваш телефон:">
+        </div>
+        <div class="col-md-4">
+          <button class="ask-button ask-button_yellow">Запросить расчет</button>
+        </div>
+        <div class="form-block__descr">Мы свяжемся с вами в течении 5 минут и поможем вернуть скидку до 50% по ОСАГО за безаварийную езду!</div>
+      </form>
+    </div>
+    </div>
+  </section>
+  <!--End of Form-->
+
+  <!--Social-->
+    <section class="social-block">
+      <div class="container">
+        <h2 class="social-block__heading">КАК С НАМИ СВЯЗАТЬСЯ</h2>
+        <div class="row">
+          <div class="social-column">
+              <a href="tel:79113003393" class="social-block__link">
+                <i class="icon-tel"></i>
+                <span>По телефону <br>
+                +79113003393</span>
+              </a>
+              <a href="mailto:info@expertpolis.ru" class="social-block__link">
+                <i class="icon-mail"></i>
+                <span>По эл. почте <br>
+                info@expertpolis.ru</span>
+              </a>
+              <a href="vk.com/expertpolis" target=_blank class="social-block__link">
+                <i class="icon-vk"></i>
+                <span>Вконтакте <br> vk.com/expertpolis</span>
+               </a>
+          </div>
+          <div class="social-column">
+              <a href="viber:79113003393" class="social-block__link">
+                <i class="icon-viber"></i>
+                <span>Viber <br>+79113003393</span>
+              </a>
+              <a href="whatsapp:79113003393" class="social-block__link">
+                <i class="icon-whatsapp"></i>
+                <span>WhatsApp <br>+79113003393</span>
+              </a>
+              <a href="" class="social-block__link">
+                <i class="icon-telegram"></i>
+                <span>Telegram <br>+79113003393</span>
+              </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!--End of Social-->
+
+  <!--Map-->
+    <section class="map-block">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1431.2279124608976!2d33.079937316508044!3d68.97838798600228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4434102da46bfcf5%3A0x691e8bdd19fdbbc3!2z0YPQuy4g0JLQvtC70L7QtNCw0YDRgdC60L7Qs9C-LCAy0JIsINCc0YPRgNC80LDQvdGB0LosINCc0YPRgNC80LDQvdGB0LrQsNGPINC-0LHQuy4sIDE4MzAzOA!5e0!3m2!1sru!2sru!4v1497383660921" width="100%" height="647" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="office-photo">
+        <h2 class="office-photo__heading">НАШ ОФИС В ТЦ ЕВРОСОС</h2>
+        <img src="images/tc.png" alt="">
+      </div>
+    </section>
+  <!--End of Map-->
+
+  <!--Footer-->
+    <footer class="footer clerafix">
+      <div class="footer-wrap">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
+            <div class="row">
+              <div class="footer__text footer__text_border-bottom">
+                Приемка на Володарского <br>
+                ул. Володарского, д.2в <br>
+                (ТЦ Евророс, 1 этаж)
+              </div>
+              <div class="footer__text">
+                пн-пт 10:00-19:00 <br>сб-вс 12:00-18:00
+              </div>
+            </div>
+          </div>
+          <div class="col-md-offset-2 col-md-4 col-lg-offset-3 col-lg-3">
+            <div class="our-phones__text">НАШИ ТЕЛЕФОНЫ</div>
+            <a href="tel:8152260777" class="footer-phone">(8152) 260-777</a>
+            <a href="tel:8152707343" class="footer-phone">(8152) 707-343</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!--End of Footer-->
+
+
+  <link rel="stylesheet" href="css/main.min.css">
+  <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/libs/jquery-1.11.1.min.js"></script>
+  <script src="js/libs/slick.js"></script>
+  <script src="js/main.js"></script>-->
+  <script src="js/main.min.js"></script>
+</body>
+</html>
